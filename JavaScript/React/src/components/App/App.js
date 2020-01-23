@@ -36,10 +36,10 @@ function App() {
         <h1>Coding Exercise</h1>
         <hr />
         <br />
-        <Filter onFilter={() => {}} />
+        <Filter onFilter={filterProducts} />
         <List products={filteredProducts} />
         <br />
-        <Sum products={allProducts} />
+        <Sum products={filteredProducts} />
       </header>
     </div>
   );
