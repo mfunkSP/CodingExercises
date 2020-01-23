@@ -14,9 +14,9 @@ function List(props) {
   });
 
   const columnHeaders = {
-    name: "Product:",
-    quantity: "In Stock:",
-    location: "Department:"
+    name: "",
+    quantity: "",
+    location: ""
   };
 
   return (
