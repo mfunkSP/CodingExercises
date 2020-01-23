@@ -1,0 +1,38 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* relevant styles below */
+
+ul#SPList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+}
+
+ul#SPList li {
+    background: #ccc;
+    margin: 5px 5px 15px 5px;
+    padding: 5px;
+}
+
+ul#SPList li div.i {
+    width: 183px;
+    background: green;
+    margin: 5px;
+    padding: 5px;
+}
+ul#SPList li div.j {
+    width: 183px;
+    margin: 5px;
+    padding: 5px 0;
+}
+
+ul#SPList li span.j {
+    background: yellow;;
+    margin-left: 20px;
+    padding: 5px;
+}

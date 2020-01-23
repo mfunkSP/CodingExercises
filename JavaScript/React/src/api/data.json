@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Apple",
+    "quantity": 3,
+    "location": "Produce"
+  },
+  {
+    "name": "Milk",
+    "quantity": 6,
+    "location": "Dairy"
+  },
+  {
+    "name": "Banana",
+    "quantity": 4,
+    "location": "Produce"
+  }
+]

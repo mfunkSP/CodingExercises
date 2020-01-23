@@ -1,0 +1,55 @@
+<!--
+
+Javascript Exercise
+===================
+
+1.  The body onLoad event is failing to set the value of the text box when the page loads, fix this bug.
+2.  Add an event handler for the button click to update the userMessage span to display the value from the text box.
+3.  Uncomment the jquery reference.
+4.  Change the onLoad event handler to use jQuery to update the value of the input box.
+
+
+For extra credit...
+
+5. Change it to use jQuery document ready instead of body onLoad.
+6. Add a new button to log a message to the console informing the user if the string in the text box is a palindrome.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>JavaScript Exercise</title>
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>-->
+    
+    <script type="text/javascript">
+      
+      function initialize()
+      {
+        document.getElementById("inputBox").value = "Testing 123";
+      }
+
+    </script>
+    
+  </head>
+
+  <body onLoad="initialize();">
+  
+    <h1>JavaScript Exercise</h1>
+    
+    <input name="inputBox" type="text" />
+    
+    <input type="button" value="Click me" />
+    
+    <P>
+    
+    <span id="userMessage">
+      
+    </span>
+    
+    </P>
+    
+  </body>
+
+</html>
